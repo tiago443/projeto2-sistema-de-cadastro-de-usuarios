@@ -25,7 +25,7 @@ class Usuario {
     return `Bem-vindo, ${this.nome}!`
   }
 
-    mostarDados() {
+    mostrarDados() {
         console.log(`
             Nome: ${this.nome}
             Idade: ${this.idade}
@@ -39,5 +39,6 @@ class Usuario {
         console.log(`Total de usuários criados: ${Usuario.totalUsuarios}`)
   }
 }
+
 
 module.exports = Usuario
